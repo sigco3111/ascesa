@@ -1,91 +1,62 @@
 <div align="center">
 
-# 🔥 Ascesa — from stone to the stars
+# 🔥 Ascesa 한국어판 — 돌에서 별까지
 
-**Lead a tribe from the Stone Age to a Dyson sphere.**
-A free civilization clicker/idle game that runs in your browser, on desktop and phone: no install, no account, no ads.
+**부족을 이끌고 석기 시대부터 다이슨 구까지.**
+브라우저에서 바로 즐기는 무료 문명 클리커/방치형 게임입니다. 설치도, 계정도, 광고도 없습니다.
 
-### [▶ Play now](https://andrearufo.github.io/ascesa/)
+### [▶ 지금 플레이](https://sigco3111.github.io/ascesa/)
 
-![Ascesa: a prehistoric camp and a hyper-tech city](assets/og.png)
+![Ascesa: 선사 시대 야영지와 초기술 도시](assets/og.png)
 
-![Vanilla JS](https://img.shields.io/badge/vanilla-JS-f7df1e) ![Zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen) ![No build step](https://img.shields.io/badge/build-none-blue) ![English · Italiano](https://img.shields.io/badge/lang-EN%20%C2%B7%20IT-orange) [![MIT License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
+![Vanilla JS](https://img.shields.io/badge/vanilla-JS-f7df1e) ![Zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen) ![No build step](https://img.shields.io/badge/build-none-blue) ![한국어 · English · Italiano](https://img.shields.io/badge/lang-KO%20%C2%B7%20EN%20%C2%B7%20IT-orange) [![MIT License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
+
+> 원작: [andrearufo/ascesa](https://github.com/andrearufo/ascesa) (MIT) · 이 저장소는 비공식 한국어 번역판 포크입니다. 영어 원문 README는 [README.en.md](README.en.md)에 그대로 보존되어 있습니다.
 
 </div>
 
-## Why you'll lose an evening to it
+## 한국어판 안내
 
-- **8 eras, 102 technologies, 62 buildings, 14 jobs.** Hunters and sages become farmers, workers, scientists, AI technicians and quantum engineers.
-- **8 irreversible choices** shape your run: tribe, government, economy, labor, energy, ideology, your stance on AI, and your destiny.
-- **Civilizations can fall.** Famine, revolts, raids, the Black Death, the Great War, the missile crisis, climate collapse, a rogue AI and an incoming asteroid can each end your game.
-- **Three ways to win:** build a *Dyson sphere*, launch a *Star Ark*, or upload everyone in a *Digital Ascension*.
-- **33 random events**, 9 of them with tough choices: refugees at the gates, heresy, general strikes, an AI breakthrough you may not be ready for…
-- **A living scene:** the landscape grows from tents and campfires to arcologies and spaceports, with day and night, smog, snow and blackouts.
-- **Every run is different:** pick one of three random civilization traits at the start, spend legacy points on permanent perks or keep them for a production bonus, and take on optional challenges for more points.
-- **Friendly to idle play:** research unlocks auto-gathering and lets you pin a job for idle people, lucky finds appear in the scene for a free bonus, and after a defeat you can restart from the beginning of the current era.
-- **Long-term progression:** 29 achievements, 3 difficulty levels and up to 8 hours of offline progress.
+- 게임 내 모든 텍스트(UI, 기술, 건물, 직업, 사건, 위기, 업적, 결말 등 **744개 항목**)를 한국어로 번역했습니다.
+- 기본 언어는 **한국어**이며, 화면 오른쪽 위의 🌐 버튼으로 한국어 → Italiano → English 순서로 전환할 수 있습니다.
+- 한글 표시를 위해 Noto Sans KR 웹폰트를 추가했습니다.
+- 번역은 원작의 i18n 구조(`js/ko.js`)를 그대로 따라 이탈리아어 원문 키에 대응하도록 작성했으며, 게임 로직·밸런스·저장 형식은 원작과 동일합니다.
 
-![Late game: hyper-tech era](assets/screenshot.png)
+## 게임 소개
 
-## How to play
+한 저녁을 순삭할 이유:
 
-1. **Click** (or press `Space`, or the resource's letter) to gather. Holding a key doesn't count: every press is a click.
-2. **Assign jobs** to your people. Keep food positive, or they starve.
-3. **Build** housing, storage, workshops, power plants and labs. Storage caps limit what you can afford, so plan ahead.
-4. **Research** technologies. Each one takes time, and you can queue several (paid up front).
-5. **Survive.** Watch stability, defense, pollution and AI risk, and pay off timed crises before they hit.
-6. **Win** by completing one of the three megaprojects of the last era.
+- **8개 시대, 102개 기술, 62개 건물, 14개 직업.** 수렵 채집인과 현자에서 시작해 농부, 노동자, 과학자, AI 기술자, 양자 공학자까지.
+- **8가지 돌이킬 수 없는 선택**이 한 번의 플레이를 결정합니다: 부족의 정신, 정부 형태, 경제 모델, 사회 문제, 에너지원, 이념, AI와의 관계, 문명의 운명.
+- **문명은 무너질 수 있습니다.** 기근, 폭동, 약탈, 흑사병, 대전, 미사일 위기, 기후 붕괴, 통제 불능 AI, 소행성 충돌이 게임을 끝낼 수 있습니다.
+- **세 가지 승리 방법:** *다이슨 구* 건설, *성간 방주* 발사, 또는 모두를 업로드하는 *디지털 초월*.
+- **33개의 랜덤 이벤트**, 그중 9개는 어려운 선택을 요구합니다: 문 앞의 피난민, 이단, 총파업, 준비되지 않은 AI 돌파구까지.
+- **살아있는 화면:** 풍경이 천막과 모닥불에서 아콜로지와 우주공항으로 자라나고, 낮과 밤, 스모그, 눈, 정전이 표현됩니다.
+- **매번 다른 플레이:** 시작 시 세 가지 무작위 문명 기질 중 하나를 고르고, 유산 포인트로 영구 특전을 사거나 생산 보너스로 보유하며, 선택형 도전 과제로 더 많은 포인트를 노립니다.
+- **방치형 친화:** 연구로 자동 채집이 열리고, 📌로 대기 인구를 일할 직업에 고정할 수 있으며, 패배 후에는 해당 시대의 처음부터 다시 시작할 수 있습니다.
+- **장기 성장:** 29개 업적, 3단계 난이도, 최대 8시간의 오프라인 진행.
 
-Your game saves automatically in the browser. Use 📤 Export to move it to another device.
+![후반부: 초기술 시대](assets/screenshot.png)
 
-## Under the hood
+## 플레이 방법
 
-Under 2,500 lines of plain JavaScript modules. No framework, no bundler, no npm packages.
+1. **클릭**(또는 `스페이스`, 또는 자원 단축키)으로 채집합니다. 키를 누르고 있어도 소용없습니다. 한 번 누를 때마다 한 번씩 채집합니다.
+2. 주민에게 **직업을 배정**하세요. 식량을 플러스로 유지하지 못하면 굶어 죽습니다.
+3. 주거지, 저장고, 작업장, 발전소, 연구소를 **건설**하세요. 저장 용량이 상한을 정하므로 미리 계획해야 합니다.
+4. 기술을 **연구**하세요. 각각 시간이 걸리며 여러 개를 대기열에 넣을 수 있습니다(비용 선불).
+5. **생존**하세요. 안정도, 방어, 오염, AI 위험을 주시하고, 시한이 있는 위기가 닥치기 전에 해결하세요.
+6. 마지막 시대의 **메가프로젝트** 중 하나를 완성해 **승리**하세요.
 
-```
-index.html, style.css
-js/data.js     game data: resources, jobs, buildings, technologies, achievements
-js/engine.js   DOM-free engine: economy, population, stability, saving
-js/events.js   events, raids, crises, endings
-js/scene.js    animated canvas scene
-js/ui.js       interface
-js/i18n.js     t`text` translates the Italian source text through js/en.js
-test/sim.js    data checks + a greedy bot that plays whole games to test the balance
-test/i18n.js   makes sure every text has an English translation
-```
+게임은 브라우저에 자동 저장됩니다. 📤 내보내기로 다른 기기로 옮길 수 있습니다.
 
-The engine never touches the DOM, so a bot can play thousands of simulated hours in node to check the balance:
+## 기술 메모
 
-```bash
-node test/sim.js 4 normal
-```
+- 빌드 없는 순수 Vanilla JS(의존성 0). 정적 파일 그대로 GitHub Pages에서 동작합니다.
+- `js/en.js`/`js/ko.js`가 이탈리아어 원문 키를 각 언어로 대응시키는 i18n 구조이며, `js/i18n.js`의 `t()`가 런타임에 번역합니다.
+- 엔진은 DOM을 만지지 않아 node에서 봇 시뮬레이션으로 밸런스를 검증할 수 있습니다: `node test/sim.js 4 normal`
+- 번역 누락 검사: `node test/i18n.js`(영어) · `node test/i18n.ko.js`(한국어)
+- 로컬 실행: `python3 -m http.server` 등으로 폴더를 서빙한 뒤 브라우저에서 열면 됩니다.
 
-On Normal the bot wins in about 5–9 hours of game time.
+## 라이선스
 
-To run it locally, serve the folder with any static server, for example `python3 -m http.server`, and open it in a browser.
-
-## Feedback
-
-Found a bug, a broken strategy or a balance issue? [Open an issue](https://github.com/andrearufo/ascesa/issues), ideally with your save code from 📤 Export.
-If you enjoyed it, a ⭐ helps other people find the game.
-
-## License
-
-[MIT](LICENSE): play it, fork it, mod it.
-
----
-
-<details>
-<summary>🇮🇹 In italiano</summary>
-
-**Ascesa** è un gioco di civiltà clicker/idle, gratuito, che gira nel browser: guidi una tribù dalla preistoria fino a un futuro iper-tecnologico.
-La lingua segue quella del browser e si cambia con il pulsante 🌐 in alto.
-
-- **Clicca** (o premi `Spazio`, o `C` cibo, `L` legno, `P` pietra, `M` metallo, `O` oro, `K` conoscenza) per raccogliere.
-- **Assegna i lavori**, **costruisci**, **ricerca** oltre 100 tecnologie in 8 ere, con 8 scelte esclusive.
-- **Sopravvivi** a carestie, rivolte, razzie, epidemie, guerre, inquinamento, IA ribelli e asteroidi.
-- **Vinci** completando la Sfera di Dyson, l'Arca Stellare o l'Ascensione Digitale.
-
-**Gioca:** https://andrearufo.github.io/ascesa/
-
-</details>
+원작과 동일한 [MIT](LICENSE)입니다. 원작자: [andrearufo](https://github.com/andrearufo) — 원작 README는 [README.en.md](README.en.md) 참조.

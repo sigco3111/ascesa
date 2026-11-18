@@ -384,8 +384,9 @@ document.addEventListener('keyup', () => $('clicker').classList.remove('pressed'
 document.documentElement.lang = lang;
 document.title = TITLE;
 for (const el of document.querySelectorAll('[data-t]')) el.innerHTML = t(el.innerHTML.trim());
-$('lang').textContent = lang === 'it' ? '🌐 English' : '🌐 Italiano';
-$('lang').dataset.act = 'lang:' + (lang === 'it' ? 'en' : 'it');
+const NEXT_LANG = { it: 'en', en: 'ko', ko: 'it' }, LANG_LABEL = { en: '🌐 English', ko: '🌐 한국어', it: '🌐 Italiano' };
+$('lang').textContent = LANG_LABEL[NEXT_LANG[lang] || 'ko'];
+$('lang').dataset.act = 'lang:' + (NEXT_LANG[lang] || 'ko');
 function welcome(off) {
   if (!off || !$('modal').hidden) return;
   modal(`<h2>${t('🌙 Bentornato')}</h2><p>${t`Sei stato via ${time(off.sec)}. Nel frattempo la tua civiltà ha prodotto:`}</p>
